@@ -1,0 +1,7 @@
+Downloading external sources is disabled on Eclipse IDE : 
+              1. Open the Eclipse preferences window (Window > Preferences),Go to XML(Wild Web Developer).
+              2. check the "Download external resources like referenced DTD,XSD", then Apply.
+ java.io.FileNotFoundException: class path resource [spring.xml] cannot be opened because it does not exist :
+              1. resources folder should be under src/main/resources not under src/main/java/resources
+BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext :
+              1. xml file should be given in ClassPathXmlApplicationContext();
